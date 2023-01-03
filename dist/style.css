@@ -1,0 +1,84 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("/img/ramen.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.main-container {
+  width: 85%;
+  margin: auto;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.mylinks {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+}
+.mylinks li {
+  list-style: none;
+  font-size: 1.5em;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+.mylinks li:hover {
+  background-color: darkred;
+  transition: 0.3s;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.logo img {
+  width: 100px;
+}
+.showcase {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menu button {
+  padding: 15px;
+  width: 100px;
+  font-weight: bolder;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  background-color: darkred;
+}
+.menu button:hover {
+  background-color: red;
+  transition: 0.3s;
+  color: white;
+}
+
+.showcase h1 {
+  font-size: 5em;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 98%;
+  color: white;
+}

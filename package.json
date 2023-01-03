@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "assignment in the OTP curriculum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeecoA/Restaurant-Page.git"
+  },
+  "author": "Meecoa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeecoA/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/MeecoA/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
