@@ -1,4 +1,6 @@
+const ramenTitle = document.querySelector("#ramenTitle");
+
 const alertFunctionContact = () => {
-  alert("Via Module: Menu Button");
+  ramenTitle.textContent = "Contact button clicked";
 };
 export { alertFunctionContact };
