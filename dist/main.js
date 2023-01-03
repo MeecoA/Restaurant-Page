@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelector("#menuBtn"),t=document.querySelector("#contactBtn");e.addEventListener("click",(()=>{alert("Via Module: Menu Button")})),t.addEventListener("click",(()=>{alert("Via Module: Menu Button")}))})();
