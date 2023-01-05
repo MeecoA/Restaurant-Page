@@ -14,6 +14,7 @@ body {
   width: 85%;
   margin: auto;
 }
+
 .nav {
   display: flex;
   align-items: center;
@@ -32,6 +33,10 @@ body {
   cursor: pointer;
   padding: 10px;
   border-radius: 10px;
+}
+.mylinks a {
+  text-decoration: none;
+  color: black;
 }
 .mylinks li:hover {
   background-color: darkred;
@@ -81,4 +86,24 @@ footer {
   justify-content: center;
   width: 98%;
   color: white;
+}
+.menu-container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+  width: 70%;
+}
+.foods img {
+  width: 250px;
+  height: 170px;
+}
+.foods {
+  color: white;
+  display: flex;
+}
+.ramen-desc {
+  margin-left: 10px;
+  width: 50%;
 }

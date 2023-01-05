@@ -1,1 +1,0 @@
-(()=>{"use strict";const e=document.querySelector("#ramenTitle"),t=document.querySelector("#ramenTitle"),n=document.querySelector("#menuBtn"),c=document.querySelector("#contactBtn");document.querySelector("#ramenTitle"),n.addEventListener("click",(()=>{e.textContent="Menu Button Clicked"})),c.addEventListener("click",(()=>{t.textContent="Contact button clicked"}))})();
