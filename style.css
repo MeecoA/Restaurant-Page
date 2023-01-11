@@ -74,6 +74,9 @@ body {
   transition: 0.3s;
   color: white;
 }
+.showcase {
+  margin-top: 100px;
+}
 
 .showcase h1 {
   font-size: 5em;
@@ -106,4 +109,10 @@ footer {
 .ramen-desc {
   margin-left: 10px;
   width: 50%;
+}
+.contact-us {
+  background-color: darkred;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
 }
