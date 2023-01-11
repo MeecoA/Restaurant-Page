@@ -48,4 +48,11 @@ const renderBase = () => {
   showcase.appendChild(homeTitle);
 };
 
-export { renderBase };
+const renderHomeTitle = () => {
+  const showcase = document.querySelector(".showcase");
+  const titleHome = document.createElement("h1");
+  titleHome.textContent = "Japanese Authentic Ramen";
+  showcase.appendChild(titleHome);
+};
+
+export { renderBase, renderHomeTitle };
