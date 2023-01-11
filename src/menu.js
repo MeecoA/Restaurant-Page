@@ -17,7 +17,7 @@ const renderMenu = () => {
   menuContainer.appendChild(foods);
 
   const shioImg = document.createElement("img");
-  shioImg.src = "../img/shio.jpg";
+  shioImg.src = "../img/shio.JPG";
   foods.appendChild(shioImg);
 
   const ramenDesc = document.createElement("div");
@@ -45,7 +45,7 @@ const renderMenu = () => {
   menuContainer.appendChild(foods1);
 
   const karaImg = document.createElement("img");
-  karaImg.src = "../img/karamiso.jpg";
+  karaImg.src = "../img/karamiso.JPG";
   foods1.appendChild(karaImg);
 
   const ramenDesc1 = document.createElement("div");
@@ -101,7 +101,7 @@ const renderMenu = () => {
   menuContainer.appendChild(foods3);
 
   const shoyuImg = document.createElement("img");
-  shoyuImg.src = "../img/miso.jpg";
+  shoyuImg.src = "../img/miso.JPG";
   foods3.appendChild(shoyuImg);
 
   const ramenDesc3 = document.createElement("div");
