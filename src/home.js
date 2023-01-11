@@ -13,7 +13,7 @@ const renderBase = () => {
   logo.classList.add("logo");
   nav.appendChild(logo);
   const logoImg = document.createElement("img");
-  logoImg.src = "/img/logo.png";
+  logoImg.src = "../img/logo.png";
   logoImg.alt = "logo";
   logo.appendChild(logoImg);
   const unorderedList = document.createElement("ul");
