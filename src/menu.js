@@ -80,7 +80,7 @@ const renderMenu = () => {
   ramenDesc2.classList.add("ramen-desc");
   foods2.appendChild(ramenDesc2);
   const misoTitle = document.createElement("h2");
-  misoTitle.textContent = "Kara-Miso Ramen";
+  misoTitle.textContent = "Miso Ramen";
   ramenDesc2.appendChild(misoTitle);
   const para1b = document.createElement("p");
   para1b.textContent =
@@ -101,15 +101,15 @@ const renderMenu = () => {
   menuContainer.appendChild(foods3);
 
   const shoyuImg = document.createElement("img");
-  shoyuImg.src = "img/miso.jpg";
+  shoyuImg.src = "img/shoyu.jpg";
   foods3.appendChild(shoyuImg);
 
   const ramenDesc3 = document.createElement("div");
   ramenDesc3.classList.add("ramen-desc");
   foods3.appendChild(ramenDesc3);
   const shoyuTitle = document.createElement("h2");
-  shoyuTitle.textContent = "Kara-Miso Ramen";
-  ramenDesc3.appendChild(misoTitle);
+  shoyuTitle.textContent = "Shoyu Ramen";
+  ramenDesc3.appendChild(shoyuTitle);
   const para1c = document.createElement("p");
   para1c.textContent =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iste facilis a accusamus at cumquemaiores commodi totam voluptatem natus?";
@@ -118,7 +118,7 @@ const renderMenu = () => {
   ramenDesc3.appendChild(breakln3);
   const para2c = document.createElement("p");
   para2c.textContent = "(R) P385";
-  ramenDesc2.appendChild(para2c);
+  ramenDesc3.appendChild(para2c);
   const para3c = document.createElement("p");
   para3c.textContent = "(R) P500";
   ramenDesc3.appendChild(para3c);
